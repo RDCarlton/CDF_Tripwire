@@ -67,10 +67,10 @@ require_once('settings.php');
 		<div id="app_info">
 			<!-- Start Logo -->
 
-			<h1 style="font-size: 4.3em;"><img src="//<?= CDN_DOMAIN ?>/images/landing/tripwire-logo.png" alt="Tripwire" style="vertical-align: text-top;" /> Tripwire</h1>
+			<h1 style="font-size: 4.3em;"><img src="//<?= CDN_DOMAIN ?>/images/landing/tripwire-logo.png" alt="Tripwire" style="vertical-align: text-top;" /> Northstar</h1>
 			<!-- End Logo -->
 			<span class="tagline">The greatest wormhole mapper ever.</span>
-			<p>Tripwire is an open source wormhole mapping tool, hosted for free to the public, built for use with <a href="https://www.eveonline.com" target="_blank">EVE Online</a>.</p>
+			<p>Northstar is a wormhole mapping tool, based on the open source Tripwire app. Prior to June 30th, 2024, Tripwire was hosted for free to the public, built for use with <a href="https://www.eveonline.com" target="_blank">EVE Online</a>.</p>
 
 			<div class="buttons">
 				<a href="#register#admin" class="large_button corp">
@@ -386,7 +386,7 @@ require_once('settings.php');
 	<footer class="container">
 		<!--<p>Eon Studios &copy; 2014. All Rights Reserved.</p>-->
 		<p><a href="#privacy">Privacy Policy</a> | <a href="#ccp_copyright">CCP Copyright</a></p>
-		<?php include 'donation_panel.inc'; ?>
+		<?php /*  include 'donation_panel.inc'; */  ?>
 	</footer>
 	
 	<!-- End Footer -->
